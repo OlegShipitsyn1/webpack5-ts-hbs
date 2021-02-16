@@ -1,0 +1,18 @@
+$body-color: rgb(185, 117, 54);
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    color: orange;
+  }
+}
+
+@media (max-width: 991px) {
+  h2 {
+    color: green;
+  }
+}
